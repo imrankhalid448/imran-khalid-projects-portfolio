@@ -1,0 +1,44 @@
+# Secrets & local env
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.crt
+*.cer
+*.pfx
+
+# Databases & local data
+data/
+*.db
+*.sqlite
+*.sqlite3
+
+# Dependencies & virtualenvs
+node_modules/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Build outputs & caches
+dist/
+build/
+.next/
+.vite/
+
+# Large archives & media & binaries
+*.zip
+*.rar
+*.7z
+*.tar.gz
+*.mp4
+*.avi
+*.mov
+*.exe
+*.pt
+*.pth
+*.onnx
+*.h5
+*.safetensors
+*.bin
